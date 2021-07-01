@@ -1,7 +1,7 @@
 function remUnicode (str) {
 
   var defaultUnicodeRemovalMap = [
-    {'base':'A', 'letters':/[\u03BB\u0041\u24B6\uFF21\u00C0\u00C1\u00C2\u1EA6\u1EA4\u1EAA\u1EA8\u00C3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\u00C4\u01DE\u1EA2\u00C5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F]/g},
+    {'base':'A', 'letters':/[\u1D2C\u03BB\u0041\u24B6\uFF21\u00C0\u00C1\u00C2\u1EA6\u1EA4\u1EAA\u1EA8\u00C3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\u00C4\u01DE\u1EA2\u00C5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F]/g},
     {'base':'AA','letters':/[\uA732]/g},
     {'base':'AE','letters':/[\u00C6\u01FC\u01E2]/g},
     {'base':'AO','letters':/[\uA734]/g},
@@ -82,7 +82,7 @@ function remUnicode (str) {
     {'base':'v','letters':/[\u0076\u24E5\uFF56\u1E7D\u1E7F\u028B\uA75F\u028C]/g},
     {'base':'vy','letters':/[\uA761]/g},
     {'base':'w','letters':/[\u0077\u24E6\uFF57\u1E81\u1E83\u0175\u1E87\u1E85\u1E98\u1E89\u2C73]/g},
-    {'base':'x','letters':/[\uFF92\u0078\u24E7\uFF58\u1E8B\u1E8D]/g},
+    {'base':'x','letters':/[\u02E3\uFF92\u0078\u24E7\uFF58\u1E8B\u1E8D]/g},
     {'base':'y','letters':/[\u0443\u0079\u24E8\uFF59\u1EF3\u00FD\u0177\u1EF9\u0233\u1E8F\u00FF\u1EF7\u1E99\u1EF5\u01B4\u024F\u1EFF]/g},
     {'base':'z','letters':/[\u007A\u24E9\uFF5A\u017A\u1E91\u017C\u017E\u1E93\u1E95\u01B6\u0225\u0240\u2C6C\uA763]/g},
     {'base':'','letters':/[\uFC5E\u30C4\u30F0\u4E97\u0724\u10E6\u04DD]/g}
